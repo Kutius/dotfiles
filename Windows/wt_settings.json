@@ -1,0 +1,180 @@
+{
+    "$schema": "https://gitee.com/mirrors/Windows-Terminal/raw/release-1.0/doc/cascadia/profiles.schema.json",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 110,
+    "initialRows": 30,
+    "profiles": [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "cursorShape": "vintage",
+            "colorScheme": "Darkside",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "fontFace": "CaskaydiaCove NF",
+            "fontSize": 13,
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "cursorShape": "vintage",
+            "colorScheme": "Afterglow",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 13,
+            "hidden": false
+        },
+         {
+            // SSH
+            "guid": "{5f711402-bcea-490d-8ca5-678df538e17a}",
+            "name": "Aliyun SSH",
+            "icon": "C:\\Users\\Precious\\ico\\terminal.ico",
+            "commandline": "powershell.exe ssh root@39.97.126.75",
+            "cursorShape": "vintage",
+            "colorScheme": "Material Dark",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "fontFace": "CaskaydiaCove NF",
+            "fontSize": 13,
+            "hidden": false
+         },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": true,
+            "name": "Azure Cloud Shell",
+            "cursorShape": "emptyBox",
+            "fontFace": "CaskaydiaCove NF",
+            "source": "Windows.Terminal.Azure"
+        },
+        {
+            "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+            "hidden": false,
+            "name": "Arch",
+            "commandline": "wsl.exe -d Arch",
+            "cursorShape": "vintage",
+            "colorScheme": "Darkside",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "fontFace": "CaskaydiaCove NF",
+            "fontSize": 13,
+            "startingDirectory" : "//wsl$/Arch/home/deemk"
+        }
+    ],
+    "schemes": [
+        {
+            "name": "Material Dark",
+            "colors": [
+                "#212121",
+                "#b7141f",
+                "#45dde4",
+                "#f6981e",
+                "#434ea2",
+                "#560088",
+                "#0e717c",
+                "#efefef",
+                "#656565",
+                "#e83b3f",
+                "#7aba3a",
+                "#257fad",
+                "#54a4f3",
+                "#aa4dbc",
+                "#26bbd1",
+                "#d9d9d9"
+            ],
+            "foreground": "#e5e5e5",
+            "background": "#171717"
+        },
+        {
+            "name": "Afterglow",
+            "black": "#151515",
+            "red": "#ac4142",
+            "green": "#7e8e50",
+            "yellow": "#e5b567",
+            "blue": "#6c99bb",
+            "purple": "#9f4e85",
+            "cyan": "#7dd6cf",
+            "white": "#d0d0d0",
+            "brightBlack": "#505050",
+            "brightRed": "#ac4142",
+            "brightGreen": "#7e8e50",
+            "brightYellow": "#e5b567",
+            "brightBlue": "#6c99bb",
+            "brightPurple": "#9f4e85",
+            "brightCyan": "#7dd6cf",
+            "brightWhite": "#f5f5f5",
+            "background": "#212121",
+            "foreground": "#d0d0d0"
+        },
+        {
+            "name": "Darkside",
+            "black": "#000000",
+            "red": "#e8341c",
+            "green": "#68c256",
+            "yellow": "#f2d42c",
+            "blue": "#1c98e8",
+            "purple": "#8e69c9",
+            "cyan": "#1c98e8",
+            "white": "#bababa",
+            "brightBlack": "#000000",
+            "brightRed": "#e05a4f",
+            "brightGreen": "#77b869",
+            "brightYellow": "#efd64b",
+            "brightBlue": "#387cd3",
+            "brightPurple": "#957bbe",
+            "brightCyan": "#3d97e2",
+            "brightWhite": "#bababa",
+            "background": "#222324",
+            "foreground": "#bababa"
+        }
+    ],
+    "keybindings": [
+        {
+            "command":"closePane",
+            "keys" :
+            [
+                "ctrl+shift+w"
+            ]
+        },
+        {
+            "command" : "copy",
+            "keys" :
+            [
+                "ctrl+shift+c"
+            ]
+        },
+        {
+            "command" : "paste",
+            "keys" :
+            [
+                "ctrl+shift+v"
+            ]
+        },
+        {
+            "command" : "duplicateTab",
+            "keys" :
+            [
+                "ctrl+shift+d"
+            ]
+        },
+        {
+            "command" : "newTab",
+            "keys" :
+            [
+                "ctrl+shift+t"
+            ]
+        },
+        {
+            "command" : "nextTab",
+            "keys" :
+            [
+                "ctrl+tab"
+            ]
+        }
+    ]
+}
