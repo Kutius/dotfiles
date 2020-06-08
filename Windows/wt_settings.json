@@ -35,7 +35,7 @@
             "guid": "{5f711402-bcea-490d-8ca5-678df538e17a}",
             "name": "Aliyun SSH",
             "icon": "C:\\Users\\Precious\\ico\\terminal.ico",
-            "commandline": "powershell.exe ssh root@39.97.126.75",
+            "commandline": "powershell.exe ssh root@ ($IP) ",
             "cursorShape": "vintage",
             "colorScheme": "Material Dark",
             "useAcrylic": true,
