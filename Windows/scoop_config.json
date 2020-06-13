@@ -1,0 +1,10 @@
+{
+    "lastupdate":  "2020-06-13T11:26:27.5844533+08:00",
+    "SCOOP_REPO":  "https://gitee.com/galaxysnail/scoop",
+    "SCOOP_BRANCH":  "master",
+    "aria2-split":  16,
+    "aria2-max-connection-per-server":  16,
+    "aria2-min-split-size":  "1M",
+    "aria2-enabled":  true,
+    "proxy":  ""
+}
