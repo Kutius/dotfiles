@@ -13,7 +13,7 @@ Windows Terminal [setting](/Windows/wt_setting.json)
 
 系统的一些字体：
 
-- [Cascadia Nerd Font](/Windows/Fonts/Cascadia Nerd Font)
+- [Cascadia Nerd Font](/Windows/Fonts/Cascadia%20Nerd%20Font)
 - [Cascadia](/Windows/Fonts/CascadiaCode_2005.15)
 - [NewMicrosoftYaHei](/Windows/Fonts/NewMicrosoftYaHei.11.3.0.zip)
 
