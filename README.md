@@ -17,5 +17,3 @@ Windows Terminal [setting](/Windows/wt_setting.json)
 - [Cascadia](/Windows/Fonts/CascadiaCode_2005.15)
 - [NewMicrosoftYaHei](/Windows/Fonts/NewMicrosoftYaHei.11.3.0.zip)
 
-施工中..
-
