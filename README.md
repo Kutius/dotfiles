@@ -1,7 +1,7 @@
 # dotfiles
 > Dotfiles for self
 
-
+![dotfiles](https://socialify.git.ci/Gaaraly/dotfiles/image?description=1&font=KoHo&language=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 
 Powershell [profile](/Windows/Microsoft.PowerShell_profile.ps1)
 
